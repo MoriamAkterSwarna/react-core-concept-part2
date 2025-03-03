@@ -1,5 +1,6 @@
 import "./App.css";
 import Counter from "./Counter";
+import Friends from "./Friends";
 import Team from "./Team";
 import Users from "./Users";
 
@@ -25,6 +26,10 @@ function App() {
   return (
     <>
       <h3>React Core concepts 2</h3>
+
+      {/* For Video 39-6 */}
+
+      <Friends></Friends>
 
 
       {/* For Video 39-5 */}
