@@ -1,4 +1,5 @@
 import "./App.css";
+import Counter from "./Counter";
 
 function App() {
 
@@ -22,6 +23,9 @@ function App() {
   return (
     <>
       <h3>React Core concepts 2</h3>
+
+      {/* For Video 39-3  */}
+      <Counter></Counter>
 
 
       {/* Code For Video 39-2 */}
